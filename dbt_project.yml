@@ -1,0 +1,16 @@
+name: 'hw7_wau'
+version: '1.0'
+config-version: 2
+
+profile: 'hw7_wau'   
+
+model-paths: ['models']
+snapshot-paths: ['snapshots']
+
+models:
+  hw7_wau:
+    +materialized: view
+    input:
+      +materialized: view
+    output:
+      +materialized: table
