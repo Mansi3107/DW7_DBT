@@ -1,4 +1,4 @@
-# Week 10 — dbt Snowflake Assignment
+# Week 7 — DW7_DBT
 
 This repo contains a minimal dbt project set up for Snowflake, with input models, an output model, a snapshot, and column tests.
 
